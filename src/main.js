@@ -30,6 +30,7 @@ import IconField from "primevue/iconfield";
 import Column from "primevue/column";
 import Card from "primevue/card";
 import Button from "primevue/button";
+import i18n from "./i18n.js";
 
 
 const app = createApp(App);
@@ -60,5 +61,7 @@ app.component('pv-button', Button)
     .component('pv-textarea', Textarea)
     .component('pv-toolbar', Toolbar)
     .component('pv-toast', Toast);
+
+app.use(i18n);
 
 app.mount('#app');
