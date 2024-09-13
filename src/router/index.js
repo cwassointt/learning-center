@@ -16,4 +16,5 @@ router.beforeEach((to, from, next) =>{
     document.title = `${baseTitle} | ${to.meta['title']}`;
     next();
 });
+
 export default router;
