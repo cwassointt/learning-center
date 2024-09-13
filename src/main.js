@@ -32,6 +32,7 @@ import Card from "primevue/card";
 import Button from "primevue/button";
 import i18n from "./i18n.js";
 import router from './router';
+import SelectButton from "primevue/selectbutton";
 
 const app = createApp(App);
 
@@ -48,6 +49,7 @@ app.component('pv-button', Button)
     .component('pv-dialog', Dialog)
     .component('pv-select', Select)
     .component('pv-file-upload', FileUpload)
+    .component('pv-select-buttom', SelectButton)
     .component('pv-float-label', FloatLabel)
     .component('pv-icon-field', IconField)
     .component('pv-input-icon', InputIcon)
