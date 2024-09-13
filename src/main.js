@@ -63,5 +63,5 @@ app.component('pv-button', Button)
     .component('pv-toast', Toast);
 
 app.use(i18n);
-
+app.use(router);
 app.mount('#app');
