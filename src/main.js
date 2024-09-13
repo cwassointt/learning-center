@@ -31,7 +31,7 @@ import Column from "primevue/column";
 import Card from "primevue/card";
 import Button from "primevue/button";
 import i18n from "./i18n.js";
-
+import router from './router';
 
 const app = createApp(App);
 
